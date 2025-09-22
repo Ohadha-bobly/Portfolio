@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for proper rendering and character encoding -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts - Poppins for consistent typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BoxIcons for professional iconography -->
+    <link
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Geoffrey Ohadha - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!--  NAVIGATION BAR -->
+      <!-- Fixed navbar with hamburger menu for mobile -->
+      <nav class="navbar">
+        <!-- Logo/Brand name -->
+        <a href="#" class="logo">Portfolio</a>
+
+        <!-- Hamburger menu checkbox (CSS-only mobile menu) -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Navigation menu items -->
+        <ul class="nav-menu">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ===== HOME SECTION ===== -->
+      <!-- Hero section with personal introduction and animated profile picture -->
+      <section class="home">
+        <!-- Left side: Personal information and call-to-action -->
+        <div class="home-info">
+          <h1>Geoffrey Ohadha</h1>
+          <h2>Software Developer & Quality Assurance</h2>
+          <p>
+            Hello! I’m a Software Developer passionate about building efficient,
+            scalable, and accessible applications. I’m currently sharpening my
+            expertise in Go, React, and Docker, CI/CD. As a certified
+            accessibility tester with strong QA testing experience, I bring a
+            solid understanding of software quality and inclusive design. I’m
+            always eager to collaborate and contribute to meaningful solutions.
+          </p>
+
+          <!-- Call-to-action buttons and social media links -->
+          <div class="home-actions">
+            <a
+              href="assets/Geoffrey_Ohadha_CV_I love coding.pdf"
+              class="cv-btn"
+              target="_blank"
+            >
+              <i class="bx bx-download" aria-hidden="true"></i>
+              <span>Download CV</span>
+            </a>
+            <ul class="social-links">
+              <li>
+                <a
+                  href="https://github.com/Ohadha-bobly"
+                  aria-label="Github account"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="bxl bx-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://discord.com/channels/@me"
+                  aria-label="Discord account"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  ><i class="bxl bx-discord" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com/stupid_genius_1"
+                  aria-label="X account"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  ><i class="bxl bx-twitter-x" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://web.facebook.com/geoffrey.gibson.31"
+                  aria-label="facebook account"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  ><i class="bxl bx-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right side: Animated profile picture container -->
+        <div class="home-img">
+          <div class="img-box">
+            <div class="img-item">
+              <img
+                src="assets/profile 3.jpg"
+                alt="Geoffrey Ohadha - Software Developer"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 2: ABOUT-->
+      <section id="about" class="about">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+              I’ve worked on more than 20 projects, from public platforms like
+              Technoprise, InABLE, Kenya Dairy Board, and TVETA to internal
+              tools such as Knowledge Management and Café Ordering Systems. My
+              focus is on building and testing accessible, inclusive, and
+              scalable solutions that meet WCAG standards. With experience in
+              both development and QA, I enjoy turning ideas into reliable,
+              user-friendly products.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3 aria-label="5+ years of learning">5+</h3>
+                <p>Building and Creating Digital Systems</p>
+              </div>
+              <div class="stat">
+                <h3 aria-label="20+ projects completed">20+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat">
+                <h3 aria-label="6+ technologies used">6+</h3>
+                <p>Technologies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 3: SKILLS-->
+      <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-content">
+          <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span>Python</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>JavaScipt(ES6+)</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 50%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>php</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>SQL</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Web Technologies</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span>HTML/CSS</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 65%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>REST APIs</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 55%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>JSON / XML</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>WebSockets</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Frameworks & Tools</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span>Django/Flask</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 65%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>Boostrap/Tailwind/Laravel</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>Git</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Testing & Quality Assurance</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span>Software Functional QA Testing</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>Software Accessibility QA Testing</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 99%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 4: EDUCATION-->
+      <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-content">
+          <div class="education-item">
+            <div class="education-header">
+              <div class="education-icon">
+                <!--SECTION 4: EDUCATION-->
+                <i class="bx bx-user" aria-hidden="true"></i>
+              </div>
+              <div class="education-date">
+                <span>Sept 2015 – May 2019</span>
+              </div>
+            </div>
+            <div class="education-info">
+              <h3>BSc, Information Science (ICT Option)</h3>
+              <h4>Maasai Mara University</h4>
+              <p>
+                Bachelor's degree in Information sciences with specialization in
+                Information communication technology. Developed strong
+                analytical and problem-solving skills through technology and
+                development coursework.
+              </p>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-header">
+              <div class="education-icon">
+                <i class="bx bx-universal-access" aria-hidden="true"></i>
+              </div>
+              <div class="education-date">
+                <span>Oct 2022 – Dec 2023</span>
+              </div>
+            </div>
+            <div class="education-info">
+              <h3>Cert, Software & Accessibility Testing</h3>
+              <h4>Office Of Accessible Systems and Technology - DHS</h4>
+              <p>
+                Professional certification focused on accessibility standards,
+                inclusive design, and quality assurance practices. Gained
+                hands-on experience with accessibility testing tools, WCAG
+                compliance, and ensuring software is usable by people of all
+                abilities.
+              </p>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-header">
+              <div class="education-icon">
+                <i class="bx bx-code" aria-hidden="true"></i>
+              </div>
+              <div class="education-date">
+                <span>June 2024 – Aug 2024</span>
+              </div>
+            </div>
+            <div class="education-info">
+              <h3>Professional Dev. Skills for the Digital Age</h3>
+              <h4>AlxAfrica</h4>
+              <p>
+                Comprehensive program covering professional development skills
+                essential for the digital age, including communication,
+                collaboration, and modern workplace practices.
+              </p>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-header">
+              <div class="education-icon">
+                <i class="bx bx-desktop" aria-hidden="true"></i>
+              </div>
+              <div class="education-date">
+                <span>June 2024 – Jan 2025</span>
+              </div>
+            </div>
+            <div class="education-info">
+              <h3>Backend Web Development</h3>
+              <h4>AlxAfrica</h4>
+              <p>
+                Intensive backend development program focusing on Python,
+                Django, databases, APIs, and server-side programming. Building
+                practical web applications and RESTful services.
+              </p>
+            </div>
+          </div>
+          <div class="education-item current">
+            <div class="education-header">
+              <div class="education-icon">
+                <i class="bx bx-book" aria-hidden="true"></i>
+              </div>
+              <div class="education-date">
+                <span>Currently Enrolled</span>
+              </div>
+            </div>
+            <div class="education-info">
+              <h3>Software Development</h3>
+              <h4>Power Learn Project</h4>
+              <p>
+                Comprehensive software development program covering full-stack
+                development, modern technologies, and industry best practices.
+                Currently in progress.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 5: INTERESTS-->
+      <section id="interests" class="interests">
+        <h2>Interests</h2>
+        <div class="interests-content">
+          <div class="interest-item">
+            <i class="bx bx-code" aria-hidden="true"></i>
+            <h3>Python Development</h3>
+            <p>
+              Building practical applications with Python, focusing on backend
+              development and web frameworks like Django.
+            </p>
+          </div>
+          <div class="interest-item">
+            <i class="bx bx-test-tube" aria-hidden="true"></i>
+            <h3>Quality Assurance</h3>
+            <p>
+              Manual testing and ensuring software quality through systematic
+              testing processes and bug identification.
+            </p>
+          </div>
+          <div class="interest-item">
+            <i class="bx bx-data" aria-hidden="true"></i>
+            <h3>Database Management</h3>
+            <p>
+              Working with SQL and NoSQL databases, designing schemas, and
+              managing data effectively for web applications.
+            </p>
+          </div>
+          <div class="interest-item">
+            <i class="bx bx-book" aria-hidden="true"></i>
+            <h3>Continuous Learning</h3>
+            <p>
+              Always eager to learn new technologies and improve my skills
+              through courses, projects, and collaboration.
+            </p>
+          </div>
+          <div class="interest-item">
+            <i class="bx bxl-flutter" aria-hidden="true"></i>
+            <h3>Mobile Development</h3>
+            <p>
+              Building cross-platform mobile applications using Flutter and
+              Dart, with a focus on performance, modern design, and user
+              experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 6: PROJECTS-->
+      <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-content">
+          <div class="project-item">
+            <div class="project-info">
+              <h3>🎬 Movies App</h3>
+              <p>
+                An android app consuming movies api build with Jetpack Compose.
+              </p>
+              <div class="project-tech">
+                <span>Kotlin</span>
+                <span>Compose</span>
+                <span>kotlinx.coroutines</span>
+                <span>Jetpack</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Ohadha-bobly/Movie-App"
+                  target="_blank"
+                  ><i class="bx bxl-github" aria-hidden="true"></i> Code</a
+                >
+                <span class="project-status completed">Completed</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h3>📝 TVET - Authority Website</h3>
+              <p>
+                Developed a comprehensive client registration system with
+                accessibility-first design principles. Implemented complete WCAG
+                2.1 AA compliance including keyboard navigation, screen reader
+                support, and high contrast mode.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScipt</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.tveta.go.ke/" target="_blank"
+                  ><i class="bx bx-link-external" aria-hidden="true"></i>
+                  Live</a
+                >
+                <span class="project-status completed">Completed</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h3>🔐 Authentication System</h3>
+              <p>
+                Secure user authentication system with JWT tokens, password
+                hashing, and role-based access control.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>Django</span>
+                <span>JWT</span>
+                <span>Security</span>
+              </div>
+              <div class="project-links">
+                <span class="project-status coming-soon">Coming Soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION 7: CONTACT-->
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/mblkkvqe"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="fname">Name (required)</label>
+              <input
+                type="text"
+                name="name"
+                id="fname"
+                placeholder="Full Name"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="mail">Email (required)</label>
+              <input
+                type="email"
+                id="mail"
+                name="email"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject (required)</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message (required)</label>
+              <textarea
+                name="message"
+                placeholder="Tell me about your project or just say hello!"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">
+              <i class="bx bx-send" aria-hidden="true"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>Built with ❤️ using HTML and CSS</p>
+      </div>
+    </footer>
+  </body>
+</html>
