@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with pure HTML and CSS. Fe
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://spectacular-selkie-6219fd.netlify.app/)
+[View Live Portfolio](https://geoffreyohadhaportfolio.netlify.app/)
 
 ## ✨ Features
 
